@@ -1,0 +1,73 @@
+/*
+/* This below classes are responsible for changing the texr-color, background-color and font-size
+   of ListView in odoo 15*/
+   /*
+.o_list_view .table-responsive .o_list_table thead {
+    color: #8B4513;
+    font-size: 18px;
+    text-align: -webkit-center;
+    background-color: #FFE4B5;
+    border: 1px solid #0000FF;
+
+}
+
+.o_list_view .o_list_table thead > tr > th:not(.o_list_record_selector) {
+    border-left: 1px solid #dfdfdf;
+    display: table-cell;
+    max-width: 100%;
+    white-space: normal;
+    text-overflow: ellipsis;
+    vertical-align: top;
+}
+*/
+/* This below classes are responsible for changing the height and text-align
+   of ListView in odoo 15*/
+   /*
+.o_list_view .o_list_table thead > tr > th:not(.o_list_record_selector).o_list_number_th {
+    height: 50px !important;
+    padding: auto;
+    text-align: center;
+}
+*/
+/* If we want to change the color of Table column of one2many listview
+.o_list_renderer .o_list_table {
+    background-color: white;
+    border-collapse: collapse;
+    font-variant-numeric: tabular-nums;
+}
+*/
+
+
+/* ODOO 16 */
+
+/* For one2many Listview in odoo-16*/
+
+.o_field_one2many .table-responsive .o_list_table thead > tr > th {
+    color: #212529;
+    background-color: #FFE4B5;
+    color: #8B4513;
+    height: 50px !important;
+    font-size: 18px;
+    text-align: -webkit-center;
+
+.text-truncate {
+    overflow: visible;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+
+/*
+.o_list_renderer .o_list_table thead .o_list_number_th {
+    text-align: center !important;
+}
+*/
+/*
+.o_list_renderer .o_list_table thead th:not(.o_list_record_selector) {
+    border-left: 1px solid var(--ListRenderer-thead-border-end-color);
+    height: 50px !important;
+    padding: auto;
+    text-align: center;
+}
+*/
+
